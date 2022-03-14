@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- jQuery 파일을 만들어 직접 내려받는 방법 -->
+    <script src="./jquery.js"></script>
+    <script>
+        function fn_jquery(){
+            var p_tag_text = $("#p_tag").text();
+            alert("p_tag_text:::"+p_tag_text);
+        }
+    </script>
+</head>
+<body>
+    <p>hello world</p>
+    <input type="button" onclick="javascript:fn_jquery()" value="제이쿼리">
+    <p id="p_tag"> hello world jQuery</p>
+</body>
+</html>
